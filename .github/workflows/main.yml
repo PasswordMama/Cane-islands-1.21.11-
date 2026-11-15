@@ -12,7 +12,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-          cache: maven
       - name: Unzip project
         run: unzip -o CaneIslands.zip -d build
       - name: Build
